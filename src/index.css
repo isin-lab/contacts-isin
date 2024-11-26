@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+/* font-family: 'Play', sans-serif; */
+
+:root {
+  --background-color: #282828;
+  --green-color: rgb(93, 200, 21);
+  --yellow-color: rgb(200, 188, 21);
+  --red-color: rgb(202, 76, 76);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Play', sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+.section {
+  margin-top: 30px;
+  padding: 16px;
+}
+
+.titleSections {
+  color: var(--green-color);
+  font-size: 35px;
+}
+
+ul {
+  padding-left: 50px;
+  margin-top: 20px;
+}
+
+li {
+  color: var(--yellow-color);
+  font-size: 25px;
+  list-style: square;
+  margin-bottom: 5px;
+}
+
+.link {
+  color: var(--red-color);
+  text-decoration: none;
+}
+
+@media (max-width: 700px ) {
+  .section {
+    margin-top: 20px;
+    padding: 8px 16px;
+  }
+  .titleSections {
+    font-size: 30px;
+  }
+  ul {
+    padding-left: 40px;
+    margin-top: 15px;
+  }
+  li {
+    font-size: 23px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 550px ) {
+  .section {
+    margin-top: 10px;
+    padding: 8px 16px;
+  }
+  .titleSections {
+    font-size: 27px;
+  }
+  ul {
+    padding-left: 30px;
+    margin-top: 10px;
+  }
+  li {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px ) {
+  .titleSections {
+    font-size: 25px;
+  }
+  ul {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  li {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+
+
+

@@ -1,0 +1,47 @@
+.myPhoto {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  margin: 0px auto;
+  border-radius: 50%;
+  outline: 3px solid var(--green-color);
+  outline-offset: -10px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.mainText {
+  color: var(--yellow-color);
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.spanGreen {
+  color: var(--green-color)
+}
+
+@media (max-width: 500px ) {
+  .myPhoto {
+    margin-bottom: 20px;
+  }
+  .mainText {
+    font-size: 20px;
+    margin: 18px auto;
+    text-align: center;
+  }
+}
+@media (max-width: 400px ) {
+  .mainText {
+    font-size: 18px;
+    margin: 18px auto;
+  }
+}
+@media (max-width: 340px ) {
+  .mainText {
+    font-size: 16px;
+    margin: 18px auto;
+  }
+}

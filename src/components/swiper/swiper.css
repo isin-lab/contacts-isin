@@ -1,0 +1,23 @@
+swiper-container {
+  width: 100%;
+  max-width: 1280px;
+  height: 100%;
+  border: 3px solid var(--green-color);
+  padding: 20px;
+}
+
+.imageSlide {
+  width: 100%;
+}
+
+@media (max-width: 480px ) {
+  swiper-container {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px ) {
+  swiper-container {
+    padding: 8px;
+  }
+}

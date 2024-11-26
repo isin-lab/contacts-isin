@@ -1,0 +1,122 @@
+.header {
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.headerContainer {
+  display: flex;
+  max-width: 1280px;
+  width: 100%; 
+}
+
+.logoName{
+  color: var(--green-color);
+  font-size: 24px;
+}
+
+.logoDirection {
+  color: var(--yellow-color);
+  font-size: 18px;
+}
+
+.myLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.telLink {
+  color: var(--green-color);
+  font-size: 28px;
+  text-decoration: none;
+  border: 3px solid var(--green-color);
+  padding: 4px 8px;
+}
+
+@media (max-width: 850px ) {
+  .telLink {
+    font-size: 25px;
+    border: 3px solid var(--green-color);
+    padding: 4px 8px;
+  }
+}
+@media (max-width: 650px ) {
+  .telLink {
+    font-size: 22px;
+    border: 3px solid var(--green-color);
+    padding: 4px 8px;
+  }
+}
+@media (max-width: 550px ) {
+  .logoName{
+    font-size: 22px;
+  }
+  .logoDirection {
+    font-size: 16px;
+  }
+  .telLink {
+    font-size: 20px;
+    border: 2px solid var(--green-color);
+    padding: 3px 8px;
+  }
+}
+@media (max-width: 440px ) {
+  .logoName{
+    font-size: 20px;
+  }
+  .logoDirection {
+    font-size: 16px;
+  }
+  .telLink {
+    font-size: 18px;
+    border: 2px solid var(--green-color);
+    padding: 2px 6px;
+  }
+}
+@media (max-width: 390px ) {
+  .logoName{
+    font-size: 17px;
+  }
+  .logoDirection {
+    font-size: 15px;
+  }
+  .telLink {
+    font-size: 17px;
+    border: 2px solid var(--green-color);
+    padding: 4px;
+  }
+}
+@media (max-width: 350px ) {
+  .logoName{
+    font-size: 16px;
+  }
+  .logoDirection {
+    font-size: 15px;
+  }
+  .telLink {
+    font-size: 16px;
+    border: 2px solid var(--green-color);
+    padding: 4px;
+  }
+}
+@media (max-width: 330px ) {
+  .logoName{
+    font-size: 16px;
+  }
+  .logoDirection {
+    font-size: 15px;
+  }
+  .telLink {
+    font-size: 14px;
+    border: 2px solid var(--green-color);
+    padding: 4px;
+  }
+}
